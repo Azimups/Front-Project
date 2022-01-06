@@ -1,0 +1,248 @@
+.nav-bar .bar-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.nav-bar .bar-container .row {
+  width: 100%;
+  height: 100%;
+}
+
+.nav-bar .bar-container .row .col-lg-12 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 50px;
+}
+
+.nav-bar .bar-container .row .left-side .main-link a img {
+  margin-top: 34px;
+}
+
+.nav-bar .bar-container .row .right-side {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list li {
+  padding-left: 50px;
+  margin-top: 34px;
+  font-size: 14px;
+  color: #6F8BA4;
+  list-style: none;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list li a {
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #6F8BA4;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu {
+  height: 40px;
+  width: 120px;
+  position: relative;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu ul {
+  visibility: hidden;
+  width: 200px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu ul li {
+  padding: 0px;
+  margin: 10px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu ul li a {
+  padding-left: 20px;
+  margin-left: -20px;
+  line-height: 30px;
+  color: #6F8BA4;
+  height: 40px;
+  font-size: 13px;
+  position: relative;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu ul li:hover {
+  background: #f5f5f5;
+  padding-left: 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu ul li:hover::before {
+  width: 3px;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu ul li::before {
+  content: " ";
+  position: absolute;
+  height: 30px;
+  width: 0px;
+  left: 90px;
+  top: 32px;
+  bottom: 0px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background: #585CE9;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu .discover {
+  -webkit-transition: all 1.3s ease 0s;
+  transition: all 1.3s ease 0s;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu:hover ul {
+  visibility: visible;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu::before {
+  font-family: FontAwesome;
+  content: "\f107";
+  font-size: 12px;
+  color: #6F8BA4;
+  position: absolute;
+  right: -3px;
+  top: 5px;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu-2 {
+  height: 40px;
+  width: 120px;
+  position: relative;
+  position: relative;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu-2 ul {
+  visibility: hidden;
+  width: 200px;
+  background-color: white;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu-2 ul li {
+  padding: 0px;
+  margin: 10px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu-2 ul li a {
+  padding-left: 20px;
+  margin-left: -20px;
+  line-height: 30px;
+  color: #6F8BA4;
+  height: 40px;
+  font-size: 13px;
+  position: relative;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu-2 ul li:hover {
+  background: #f5f5f5;
+  padding-left: 10px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu-2 ul li:hover::before {
+  width: 3px;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu-2 ul li::before {
+  content: " ";
+  position: absolute;
+  height: 30px;
+  width: 0px;
+  left: 90px;
+  top: 32px;
+  bottom: 0px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background: #585CE9;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu-2 .pages {
+  -webkit-transition: all 1.3s ease 0s;
+  transition: all 1.3s ease 0s;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu-2:hover ul {
+  visibility: visible;
+}
+
+.nav-bar .bar-container .row .right-side .bar-list .diff-menu-2::before {
+  font-family: FontAwesome;
+  content: "\f107";
+  font-size: 12px;
+  color: #6F8BA4;
+  position: absolute;
+  right: 13px;
+  top: 5px;
+}
+
+.nav-bar .bar-container .row .right-side .bar-buttons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  text-align: center;
+}
+
+.nav-bar .bar-container .row .right-side .bar-buttons li {
+  border: 1px solid #585CE9;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 34px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 27px;
+  padding-right: 27px;
+  list-style: none;
+}
+
+.nav-bar .bar-container .row .right-side .bar-buttons li a {
+  color: #585CE9;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.nav-bar .bar-container .row .right-side .bar-buttons li:hover {
+  background-color: #585CE9;
+}
+
+.nav-bar .bar-container .row .right-side .bar-buttons li:hover a {
+  color: white;
+}
+
+.nav-bar .bar-container .row .right-side .bar-buttons .active {
+  background-color: #585CE9;
+}
+
+.nav-bar .bar-container .row .right-side .bar-buttons .active a {
+  color: white;
+}
+
+.nav-bar .bar-container .row .right-side .bar-buttons .active:hover {
+  background-color: white;
+}
+
+.nav-bar .bar-container .row .right-side .bar-buttons .active:hover a {
+  color: #585CE9;
+}
+/*# sourceMappingURL=style.css.map */
