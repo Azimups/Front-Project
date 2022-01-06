@@ -1,3 +1,7 @@
+.nav-bar {
+  width: 100%;
+}
+
 .nav-bar .bar-container {
   max-width: 1140px;
   margin: 0 auto;
@@ -16,15 +20,16 @@
   gap: 50px;
 }
 
+.nav-bar .bar-container .row .left-side {
+  display: inline-block;
+}
+
 .nav-bar .bar-container .row .left-side .main-link a img {
   margin-top: 34px;
 }
 
 .nav-bar .bar-container .row .right-side {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -244,5 +249,12 @@
 
 .nav-bar .bar-container .row .right-side .bar-buttons .active:hover a {
   color: #585CE9;
+}
+
+.menu-icon i {
+  float: right;
+  font-size: 30px;
+  margin-top: -20px;
+  margin-right: 50px;
 }
 /*# sourceMappingURL=style.css.map */

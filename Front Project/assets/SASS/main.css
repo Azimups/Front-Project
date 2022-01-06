@@ -8,6 +8,12 @@ body{
   box-sizing: border-box;
 }
 @media only screen and (max-width:1920px){
+  .menu-icon {
+    display: none;
+  }
+  .right-side{
+    display: flex;
+  }
     .col-xl-1 {
       width: calc(100% / 12 * 1);
     }
@@ -17,7 +23,6 @@ body{
     .col-xl-3 {
       width: calc(100% / 12 * 3);
     }
-    
     .col-xl-4 {
       width: calc(100% / 12 * 4);
     }
@@ -47,7 +52,12 @@ body{
     }
   }
   @media only screen and (max-width: 992px){
-    
+    .menu-icon {
+      display: block;
+    }
+    .right-side{
+      display: none;
+    }
     .col-lg-1 {
     width: calc(100% / 12 * 1);
   }
@@ -57,7 +67,6 @@ body{
   .col-lg-3 {
     width: calc(100% / 12 * 3);
   }
-  
   .col-lg-4 {
     width: calc(100% / 12 * 4);
   }

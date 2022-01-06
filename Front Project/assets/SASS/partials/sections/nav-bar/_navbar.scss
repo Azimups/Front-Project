@@ -1,4 +1,5 @@
 .nav-bar{
+    width: 100%;
     .bar-container{
         max-width: 1140px;
         margin: 0 auto;
@@ -11,6 +12,7 @@
                 gap: 50px;
             }
             .left-side{
+                display: inline-block;
                 .main-link{
                     a{
                         img{
@@ -21,7 +23,7 @@
             }
             .right-side{
                 width: 100%;
-                display: flex;
+                // display: flex;
                 justify-content: space-between;
                 .bar-list{
                     display:flex;
@@ -201,5 +203,13 @@
                 }
             }
         }
+    }
+}
+.menu-icon{
+    i{
+        float: right;
+        font-size:30px;
+        margin-top: -20px;
+        margin-right: 50px;
     }
 }
