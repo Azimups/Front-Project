@@ -1,0 +1,45 @@
+#message{
+    .container{
+        .row{
+            .title{
+                .lead{
+                    font-size: 22px;
+                }
+                p{
+                    font-weight: 400;
+                    font-size: 14px;
+                    color: #6F8BA4;
+                }
+            }
+            .contact-info{
+                .row{
+                    .col-xl-6{
+                        input{
+                            border: 1px solid #eee;
+                            width:350px;
+                            height: 50px;
+                        }
+                    }
+                    .col-xl-12{
+                        padding-top: 40px;
+                        input{
+                            border: 1px solid #eee;
+                            width:730px;
+                            height: 150px;
+                        }
+                        a{
+                            @include btn($secondary-color,white);
+                            padding-left: 52px;
+                            padding-right: 52px;
+                            padding-top: 8px;
+                            padding-bottom:8px;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    
+}

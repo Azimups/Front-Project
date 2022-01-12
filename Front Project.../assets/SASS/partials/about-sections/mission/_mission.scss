@@ -1,0 +1,35 @@
+#mission{
+    .container{
+        .row{
+            overflow: hidden;
+            .image{
+                transition: all 0.5s ease-out;
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+            .title{
+                box-shadow: $box-shadow;
+                border-radius: 5%;
+                transform: translateX(-150px);
+                margin-top: 50px;
+                background-color: #fff;
+                h2{
+                    font-weight:400;
+                    font-size:24px;
+                    color: $text-color;
+                    padding-left: 40px;
+                    padding-top: 40px;
+                }
+                p{
+                    font-size: 14px;
+                    line-height: 24px;
+                    font-weight: 400;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                    padding-bottom: 30px;
+                }
+            }
+        }
+    }
+}

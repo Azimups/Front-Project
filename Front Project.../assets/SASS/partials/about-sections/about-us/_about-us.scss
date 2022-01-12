@@ -1,0 +1,47 @@
+#about-us{
+    background-image: url(/assets/SASS/partials/sections/section-images/parallax.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .container{
+        background-color: $secondary-color;
+        opacity: 0.8;
+        .row{
+            .col-lg-12{
+                h1{
+                    font-size: 36px;
+                    color: white;
+                    text-align: center;
+                    padding-top: 150px;
+                    letter-spacing: 2px;
+                    position: relative;
+                    &::after{
+                        content: " ";
+                        position: absolute;
+                        width: 20px;
+                        height: 3px;
+                        background-color: white;
+                        top: 103%;
+                        right: 49%;
+                    }
+                }
+                ul{
+                    display: flex;
+                    gap: 10px;
+                    justify-content: center;
+                    padding-right: 30px;
+                    padding-top: 10px;
+                    li{
+                        list-style: none;
+                        color:white;
+                        a{
+                            color: white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

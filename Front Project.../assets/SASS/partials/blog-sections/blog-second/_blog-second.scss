@@ -1,0 +1,126 @@
+#blog-second{
+    .container{
+        .row{
+            display: flex;
+            .item{
+                text-align: center;
+                .img{
+                    width: 350px;
+                    height: 200px;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        position: relative;
+                    }
+                    .date{
+                        position: absolute;
+                        top: 170px;
+                        left: 14%;
+                        color: white;
+                        span{
+                            z-index: 2;
+                            padding-left: 3px;
+                            padding-right: 3px;
+                            color: white;
+                        }
+                        &::before{
+                            content: " ";
+                            position: absolute;
+                            width: 100%;
+                            height: 120%;
+                            background: #000;
+                            opacity: .3;
+                        }
+                    }
+                }
+                .title{
+                    width: 350px;
+                    height: 300px;
+                    // padding-bottom: 50px;
+                    background-color:white;
+                    .jirono{
+                        display:flex;
+                        justify-content:center;
+                        gap: 20px;
+                        padding-top: 20px;
+                        li{
+                            list-style: none;
+                            a{
+                                text-decoration: none;
+                            }
+                        }
+                    }
+                    h4{
+                        a{
+                            font-size: 16px;
+                            color: $text-color;
+                            text-decoration: none;
+                            &:hover{
+                                color: $secondary-color;
+                            }
+                        }
+                    }
+                    p{
+                        padding-top: 20px;
+                        padding-bottom: 20px;
+                        max-width: 90%;
+                        padding-left: 20px;
+                        font-size: 14px;
+                        color: #6F8BA4;
+                    }
+                    .bt{
+                        @include btn($secondary-color,white);
+                        padding-left: 32px;
+                        padding-right: 32px;
+                        padding-top: 10px;
+                        padding-bottom: 10px;
+                        text-decoration: none;
+                    }
+                }
+            }
+            .contact-item{
+                background-image: url(/assets/SASS/partials/sections/section-images/app.jpeg);
+                width: 100%;
+                height: 230px;
+                padding-left: 20px;
+                padding-right: 20px;
+                text-align: center;
+                p{
+                    color: white;
+                    padding-top: 30px;
+                    letter-spacing: 4px;
+                }
+                a{
+                    @include btn(white,$secondary-color);
+                    text-decoration: none;
+                    padding-left: 30px;
+                    padding-right: 30px;
+                    padding-top:8px;
+                    padding-bottom: 8px;
+                }
+                .btn{
+                    padding-top:40px
+                }
+            }
+            .page-list{
+                display: flex;
+                width: 65%;
+                justify-content: center;
+                padding-top: 50px;
+                li{
+                    list-style: none;
+                    a{
+                        @include btn(white,$secondary-color);
+                        text-decoration: none;
+                        padding-top: 12px;
+                        padding-bottom: 12px;
+                        span{
+                            padding-left: 12px;
+                            padding-right: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
