@@ -1,0 +1,543 @@
+body{
+  background: #fff;
+  color: #6F8BA4;
+}
+#intro .container{
+  max-width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  height: 700px;
+
+}
+#launch .container{
+  max-width: 1040px;
+  margin: 0 auto;
+  position: relative;
+  height:400px;
+}
+#services .container{
+  max-width: 1040px;
+  margin: 0 auto;
+  position: relative;
+  height:600px;
+}
+#design .container{
+  max-width: 1040px;
+  margin: 0 auto;
+  position: relative;
+  height:600px;
+}
+#about .container{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height:350px;
+}
+#team .container{
+  width: 1240px;
+  margin: 0 auto;
+  position: relative;
+  height:650px;
+}
+#plans .container{
+  width: 1240px;
+  margin: 0 auto;
+  position: relative;
+  height:850px;
+}
+#contact .container{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height:300px;
+}
+#blog .container{
+  width: 1240px;
+  margin: 0 auto;
+  position: relative;
+  height:850px;
+}
+.footer .container{
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  height:410px;
+}
+#about-us .container{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height:280px;
+}
+.header{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  height:90px;
+}
+#about-services .container{
+    max-width: 1040px;
+  margin: 0 auto;
+  position: relative;
+  height:600px;
+}
+#mission .container{
+  width: 1240px;
+  margin: 0 auto;
+  position: relative;
+  height:650px;
+}
+#vision .container{
+  width: 1240px;
+  margin: 0 auto;
+  position: relative;
+  height:650px;
+}
+#works .container{
+  width: 1240px;
+  margin: 0 auto;
+  position: relative;
+  height:950px;
+}
+#question .container{
+  width: 1240px;
+  margin: 0 auto;
+  position: relative;
+  height:450px;
+}
+#blog .container{
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  height:950px;
+}
+#blog-second .container{
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  height:1200px;
+}
+#iframe .container{
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  height:800px;
+}
+#message .container{
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  height:450px;
+}
+#solution .container{
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+  height:1200px;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width:1920px){
+  .menu-icon {
+    display: none;
+  }
+  .right-side{
+    display: flex;
+  }
+    .col-xl-1 {
+      width: calc(100% / 12 * 1);
+    }
+    .col-xl-2 {
+      width: calc(100% / 12 * 2);
+    }
+    .col-xl-3 {
+      width: calc(100% / 12 * 3);
+    }
+    .col-xl-4 {
+      width: calc(100% / 12 * 4);
+    }
+    .col-xl-5 {
+      width: calc(100% / 12 * 5);
+    }
+    .col-xl-6 {
+      width: calc(100% / 12 * 6);
+    }
+    .col-xl-7 {
+      width: calc(100% / 12 * 7);
+    }
+    .col-xl-8 {
+      width: calc(100% / 12 * 8);
+    }
+    .col-xl-9 {
+      width: calc(100% / 12 * 9);
+    }
+    .col-xl-10 {
+      width: calc(100% / 12 * 10);
+    }
+    .col-xl-11 {
+      width: calc(100% / 12 * 11);
+    }
+    .col-xl-12 {
+      width: calc(100% / 12 * 12);
+    }
+  }
+  @media only screen and (max-width: 992px){
+    #blog .img img {
+      max-width:70%;
+    }
+    #message .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #message .ur-message{
+      width: 50%;
+      /* display: none; */
+    }
+    #question .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #works .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #works .container .row .item .col-xl-6 {
+      width:100%;
+    }
+    #vision .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #vision .container .title{
+      padding-right: 300px;
+    }
+    #vision .container .image img{
+      width: 100%;
+    }
+    #mission .container .title{
+      padding-left: 300px;
+    }
+    #mission .container .image img{
+      width: 100%;
+    }
+    #mission .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    .img-menu{
+      width: 100%;
+      height: 100%;
+      padding-top: 200px;
+    }
+    .diff-item::before{
+      display:none;
+    }
+    #intro .container{
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #launch .container{
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #services .container{
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #design .container{
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #about .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #team .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #plans .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #contact .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #blog .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    .footer .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #about-us .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #about-services .container{
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+  }
+    .header{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    .menu-icon {
+      display: block;
+      float: right;
+    }
+    .right-side{
+      display: none;
+    }
+    .svg{
+      width: 80%;
+    }
+    #intro .container .row .img-menu .img-1 {
+      width: 100%;
+  }
+    #intro .container{
+      width: 100%;
+      height: 1200px;
+    }
+    .left-title{
+      width:100%;
+    }
+    .col-lg-1 {
+    width: calc(100% / 12 * 1);
+  }
+  .col-lg-2 {
+    width: calc(100% / 12 * 2);
+  }
+  .col-lg-3 {
+    width: calc(100% / 12 * 3);
+  }
+  .col-lg-4 {
+    width: calc(100% / 12 * 4);
+  }
+  .col-lg-5 {
+    width: calc(100% / 12 * 5);
+  }
+  .col-lg-6 {
+    width: calc(100% / 12 * 6);
+  }
+  .col-lg-7 {
+    width: calc(100% / 12 * 7);
+  }
+  .col-lg-8 {
+    width: calc(100% / 12 * 8);
+  }
+  .col-lg-9 {
+    width: calc(100% / 12 * 9);
+  }
+  .col-lg-10 {
+    width: calc(100% / 12 * 10);
+  }
+  .col-lg-11 {
+    width: calc(100% / 12 * 11);
+  }
+  .col-lg-12 {
+    width: calc(100% / 12 * 12);
+  }
+  }
+  @media only screen and (max-width: 768px){
+    /* .accordion{
+
+    } */
+    .diff-item::before{
+      display:none;
+    }
+    #intro .container{
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #launch .container{
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #services .container{
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #design .container{
+      max-width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #about .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #team .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #plans .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #contact .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #blog .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    .footer .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    #about-us .container{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    .header{
+      width: 100%;
+      margin: 0 auto;
+      position: relative;
+      height:100%;
+    }
+    .left-title{
+      width:100%;
+    }
+    
+    .col-md-1 {
+      width: calc(100% / 12 * 1);
+    }
+    .col-md-2 {
+      width: calc(100% / 12 * 2);
+    }
+    .col-md-3 {
+      width: calc(100% / 12 * 3);
+    }
+    
+    .col-md-4 {
+      width: calc(100% / 12 * 4);
+    }
+    .col-md-5 {
+      width: calc(100% / 12 * 5);
+    }
+    .col-md-6 {
+      width: calc(100% / 12 * 6);
+    }
+    .col-md-7 {
+      width: calc(100% / 12 * 7);
+    }
+    .col-md-8 {
+      width: calc(100% / 12 * 8);
+    }
+    .col-md-9 {
+      width: calc(100% / 12 * 9);
+    }
+    .col-md-10 {
+      width: calc(100% / 12 * 10);
+    }
+    .col-md-11 {
+      width: calc(100% / 12 * 11);
+    }
+    .col-md-12 {
+      width: calc(100% / 12 * 12);
+    }
+  }
+  @media only screen and (max-width: 576px){
+    .col-sm-1 {
+      width: calc(100% / 12 * 1);
+    }
+    .col-sm-2 {
+      width: calc(100% / 12 * 2);
+    }
+    .col-sm-3 {
+      width: calc(100% / 12 * 3);
+    }
+    
+    .col-sm-4 {
+      width: calc(100% / 12 * 4);
+    }
+    .col-sm-5 {
+      width: calc(100% / 12 * 5);
+    }
+    .col-sm-6 {
+      width: calc(100% / 12 * 6);
+    }
+    .col-sm-7 {
+      width: calc(100% / 12 * 7);
+    }
+    .col-sm-8 {
+      width: calc(100% / 12 * 8);
+    }
+    .col-sm-9 {
+      width: calc(100% / 12 * 9);
+    }
+    .col-sm-10 {
+      width: calc(100% / 12 * 10);
+    }
+    .col-sm-11 {
+      width: calc(100% / 12 * 11);
+    }
+    .col-sm-12 {
+      width: calc(100% / 12 * 12);
+    }
+  }

@@ -1,0 +1,55 @@
+#question{
+    .container{
+        padding-top: 100px;
+        .row{
+            .left-title{
+                max-width: 570px;
+                h2{
+                    color: $secondary-color;
+                    font-weight: 400;
+                }
+                p{
+                    letter-spacing:2px;
+                    font-size: 14px;
+                    margin-bottom: 30px;
+                    padding-top: 20px;
+                }
+                a{
+                    @include btn($secondary-color,white);
+                    padding-left: 22px;
+                    padding-right: 22px;
+                    padding-top: 8px;
+                    padding-bottom: 8px;
+                    text-decoration: none;
+                }
+            }
+            .accordion{
+                box-shadow: $box-shadow;
+                .acc{
+                    p{
+                        padding-top: 20px;
+                        padding-left: 20px;
+                        color: $text-color;
+                        transition: all 0.3s ease;
+                        height:64px;
+                        &:hover{
+                            background: #F7FAFD;
+                            padding-left: 30px;
+                        }
+                    }
+                    .last-p{
+                        padding-bottom: 20px;
+                    }
+                }
+                .acc-title{
+                    display: none;
+                    p{
+                        font-size: 14px;
+                        font-weight: 400;
+                        padding-left: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

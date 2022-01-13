@@ -1,0 +1,81 @@
+.footer {
+    background-color: $secondary-color;
+    .container {
+        .row{
+            .col-lg-5{
+                img{
+                    padding-top: 80px;
+                }
+                p{
+                    padding-top: 30px;
+                    font-size: 14px;
+                    color: white;
+                    letter-spacing: 1px;
+                    font-weight:300;
+                }
+            }
+            .col-lg-2 {
+                p{
+                    color: #E5E9F7;
+                    font-weight: 400;
+                    font-size: 16px;
+                    padding-top: 80px;
+                }
+                ul{
+                    li{
+                        list-style: none;
+                        line-height: 30px;
+                        a{
+                            font-size: 14px;
+                            color: white;
+                            text-decoration:none;
+                            transition: all 0.5s ease;
+                            &:hover{
+                                padding-left: 5px;
+                            }
+                        }
+                    }
+                }
+            }
+            .col-lg-3{
+                p{
+                    padding-top: 80px;
+                    font-size: 16px;
+                    color: white;
+                }
+                ul{
+                    li{
+                        line-height: 30px;
+                        list-style: none;
+                        color: white;
+                        font-size: 14px;
+                    }
+                }
+                .links{
+                    display: flex;
+                    justify-content: center;
+                    // padding-right: 58px;
+                    float: left;
+                    gap: 10px;
+                    // transform: translateY(-30px);
+                    li{
+                        list-style: none;
+                        a{
+                            i{
+                                color: white;
+                            }
+                        }
+                    }
+                }
+            }
+            .col-lg-12{
+                p{
+                    text-align: center;
+                    font-size: 14px;
+                    color: white;
+                    padding-top: 50px;
+                }
+            }
+        }
+    }
+}
