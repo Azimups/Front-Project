@@ -1,0 +1,65 @@
+#iframe{
+    .container{
+        .row{
+            .iframe-map{
+                iframe{
+                    width: 100%;
+                    height: 500px;
+                }
+            }
+            .iframe-content{
+                background-color: $secondary-color;
+                max-width: 999px;
+                transform: translateY(-50px);
+                margin-left: 55px;
+                .user-info{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-evenly;
+                    padding-top: 50px;
+                    padding-bottom:70px;
+                    .location{
+                        display: flex;
+                        flex-direction: column;
+                        line-height:30px;
+                        span{
+                            color:white;
+                        }
+                    }
+                    .phone{
+                        display: flex;
+                        flex-direction: column;
+                        line-height:30px;
+                        span{
+                            color:white;
+                        }
+                    }
+                    .mail{
+                        display: flex;
+                        flex-direction: column;
+                        line-height:30px;
+                        span{
+                            color:white;
+                        }
+                    }
+                }
+            }
+            .links{
+                display: flex;
+                width: 100%;
+                justify-content: center;
+                float: left;
+                gap: 10px;
+                transform: translateY(-50px);
+                li{
+                    list-style: none;
+                    a{
+                        i{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

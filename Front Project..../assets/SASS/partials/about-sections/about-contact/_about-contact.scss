@@ -1,0 +1,39 @@
+#about-contact{
+    background-image: url(/assets/SASS/partials/sections/section-images/parallax.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    .container{
+        background-color: $secondary-color;
+        opacity: 0.9;
+        .row{
+            .col-lg-12{
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding-top: 100px;
+                h1{
+                    color: white;
+                }
+                p{
+                    font-size: 22px;
+                    color: white;
+                    text-align:center;
+                    letter-spacing: 2px;
+                }
+                a{
+                    @include btn(white,$secondary-color);
+                    padding-left: 22px;
+                    padding-right: 22px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    text-decoration: none;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
